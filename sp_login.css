@@ -1,0 +1,233 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+    
+}
+
+/* header */
+
+.header{
+    height: 47px;
+    width: 1445px;
+    font-size: 20px;
+    position: relative;
+    background-color: rgb(24, 44, 24);
+    padding: 20px 40px;
+    color: transparent;
+    -webkit-text-stroke: 0.05vw #ffffff;
+    text-transform: uppercase;
+    
+}
+
+/* background */
+
+.background-container{
+    background-image: url("sp_login_bg.jpg");
+    background-size: cover;
+    height: 580px;
+    width: 1465px;
+    padding: 30px;
+    background-repeat: no-repeat;
+    justify-content: end;
+    text-align: center;
+    transform: translateX(0%);
+
+}
+
+
+
+/* login container */
+
+.contain{
+    height:500px;
+    width: 410px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    color: rgb(255, 255, 255);
+    margin-left: 68%;
+    margin-top: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(2.5px);
+    border-radius: 0 70px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.social-media {
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    margin-left: 23%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.contain .text{
+    position: relative;
+    top: 17%;
+}
+
+.contain::before {
+    content: '';
+    position: absolute;
+     top: -50%;
+     left: -50%;
+    height:500px;
+    width: 410px;
+    background: linear-gradient(60deg,transparent, #80f3f3, #80f3f3);
+    transform-origin: bottom right;
+    animation: animate 5s linear infinite;
+}
+
+.contain::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    height:500px;
+    width: 410px;
+    background: linear-gradient(60deg,transparent, #d9138a, #d9138a);
+    transform-origin: bottom right;
+    animation: animate 5s linear -2.5s infinite;
+   
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+form{
+    position: absolute;
+    inset: 5px;
+    border-radius: 0 70px;
+    background: rgb(0, 0, 0);
+    z-index: 10;
+}
+
+input::placeholder{
+    color:#bcbbbb;
+}
+
+.inp1{
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 360px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    box-shadow: none;
+}
+
+.inp2{
+    border: none;
+    background-color: transparent;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    width: 360px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    outline: none;
+    box-shadow: none;
+}
+
+.inp3{
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+    padding: 6px 20px;
+    border: 1px solid #ebaa1c;
+    color: #ebaa1c;
+    border-radius: 5px;
+}
+
+.inp3:hover{
+    box-shadow: 5px 5px 30px black;
+    background-color: #ebaa1c;
+    color: black;
+    border: 1px solid white;
+    
+}
+
+.forgot{
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.forgot:hover {
+    text-decoration: underline; color: #fff;
+}
+
+
+.sign{
+    margin-top: 20px;
+    font-size: 16px;
+    color: #ebaa1c;
+    cursor: pointer;
+    
+}
+
+.sign:hover{
+    text-decoration: underline; color: #ebaa1c;
+}
+
+.i:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+/* footer-top */
+
+.footer-bottom{
+    width: 1525px;
+    height: 250px;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.about{
+    height:200px;
+    width: 25%;
+    color: #9b9b9b;
+}
+
+.information{
+    height: 200px;
+    width: 25%;
+    color: #9b9b9b;
+}
+
+.contact-us{
+    height: 200px;
+    width: 25%;
+    color: #9b9b9b;
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 1px solid white;
+}
+
